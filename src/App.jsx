@@ -16,7 +16,7 @@ function App() {
       url: 'https://youtube-mp36.p.rapidapi.com/dl',
       params: {id: youtubeID},
       headers: {
-        'X-RapidAPI-Key': import.meta.env.VITE_RAPID_API_KEY,
+        'X-RapidAPI-Key': "af8f421a22msh6ece94f4ab01a7fp1560d9jsn9ca8b1cb2a81",
         'X-RapidAPI-Host': 'youtube-mp36.p.rapidapi.com'
       }
     }
