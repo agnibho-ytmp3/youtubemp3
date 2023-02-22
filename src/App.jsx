@@ -40,10 +40,16 @@ function App() {
           <form onSubmit={handleSubmit} className="form">
             <input ref={inputUrlRef} placeholder="Paste the youtube video url" className="form_input" type="text" />
             <button type="submit" className="form_button">Search</button>
+            <footer className="footer">
+              Made by Agnibho Mukhopadhyay <br /><br />
+              Website: www.agnibho.co.in <br /><br />
+              Email: agnibho.co.in@gmail.com
+          </footer>
           </form>
 
-          {urlResult ? <a target='_blank' rel="noreferrer" href={urlResult}><button className="download_btn">DOWNLOAD</button></a>: ''}
+          {urlResult ? <a target='_blank' rel="noreferrer" href={urlResult}>Download MP3</a>: ''}
         </section>
+
     </div>
   )
 }
